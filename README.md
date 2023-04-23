@@ -4,30 +4,26 @@
 
 ### DESCRIPTION: 
 The project will utilize ARIMA/SARIMA model to predict temperature for the next 30 years from historical data. Then the project is extended to use Artificial Neural Network model to identify the relationship between CO2 and/or Forest Area on the changes of temperature. We used the below tools and packages for the project
-	1) Jupyter Lab - as IDE
-	2) Pandas / Numpy - For reading data and data processing 
-	2) Matplotlib / Seaborn - For plots
-	3) Plotly - For world map
-	4) Statsmodel / pmdarima - For ARIMA / SARIMAX model
-	5) Sklearn - For model evaluations, data scaling and train-test split etc.
-	6) Tensorflow - For ANN model
-	7) D3 - For more advanced interactive maps
-	8) Tableau - For other charts and plots
+- Jupyter Lab - as IDE
+- Pandas / Numpy - For reading data and data processing 
+- Matplotlib / Seaborn - For plots
+- Plotly - For world map
+- Statsmodel / pmdarima - For ARIMA / SARIMAX model
+- Sklearn - For model evaluations, data scaling and train-test split etc.
+- Tensorflow - For ANN model
+- D3 - For more advanced interactive maps
+- Tableau - For other charts and plots
 
 
 ### INSTALLATION:
 Preparing the environment:
-
-	1) Model Execution - Download conda and open conda command prompt. Create new conda environment using the env.yml provided in the team109final.zip file using the below command. "env.txt" has all the modules and setup that need to be done for the environment setup.  - 
-		a) conda env create -f env.yml
-		
-	2) D3 Visualization : Copy the files produced by the Model Execution to folder (~relativePath/D3 Viz/data) if you would like to run the models for all countries(it might take a day).
-		*** Final output from Model Execution for all the countries is already exported and copied into data folder to run vizulations
-
-	3) Tableau: The 2 visualization views developed in Tableau are published to Tableau Public and can be accessed through the following links.
-			- Visualization 1 using ARIMA Prediction Model output -  https://public.tableau.com/app/profile/gopi.chava/viz/Project_TableauViz-1_Team109/ARIMAPredictionViz
-			- Visualization 2 using ANN Prediction Model output - https://public.tableau.com/app/profile/gopi.chava/viz/Project_TableauViz-2_Team109/ANNPredictionViz
-		Just opening the above links in a browser will show the visualizations which can be updated interactively as explained under execution section below for Tableau.
+- Model Execution - Download conda and open conda command prompt. Create new conda environment using the env.yml provided in the team109final.zip file using the below command. "env.txt" has all the modules and setup that need to be done for the environment setup.  - 
+	+ conda env create -f env.yml
+- D3 Visualization : Copy the files produced by the Model Execution to folder (~relativePath/D3 Viz/data) if you would like to run the models for all countries(it might take a day). *** Final output from Model Execution for all the countries is already exported and copied into data folder to run vizulations
+- Tableau: The 2 visualization views developed in Tableau are published to Tableau Public and can be accessed through the following links.
+	+ Visualization 1 using ARIMA Prediction Model output -  https://public.tableau.com/app/profile/gopi.chava/viz/Project_TableauViz-1_Team109/ARIMAPredictionViz
+	+ Visualization 2 using ANN Prediction Model output - https://public.tableau.com/app/profile/gopi.chava/viz/Project_TableauViz-2_Team109/ANNPredictionViz
+Just opening the above links in a browser will show the visualizations which can be updated interactively as explained under execution section below for Tableau.
 
 ### EXECUTION:
 
