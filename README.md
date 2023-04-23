@@ -1,8 +1,9 @@
 # TemperaturePredictionProject
 
-Global Temperature Trends and Impact of CO2 and Deforestation on Temperature Change
+## Global Temperature Trends and Impact of CO2 and Deforestation on Temperature Change
 
-DESCRIPTION: The project will utilize ARIMA/SARIMA model to predict temperature for the next 30 years from historical data. Then the project is extended to use Artificial Neural Network model to identify the relationship between CO2 and/or Forest Area on the changes of temperature. We used the below tools and packages for the project
+### DESCRIPTION: 
+The project will utilize ARIMA/SARIMA model to predict temperature for the next 30 years from historical data. Then the project is extended to use Artificial Neural Network model to identify the relationship between CO2 and/or Forest Area on the changes of temperature. We used the below tools and packages for the project
 	1) Jupyter Lab - as IDE
 	2) Pandas / Numpy - For reading data and data processing 
 	2) Matplotlib / Seaborn - For plots
@@ -14,8 +15,9 @@ DESCRIPTION: The project will utilize ARIMA/SARIMA model to predict temperature 
 	8) Tableau - For other charts and plots
 
 
-INSTALLATION:
+### INSTALLATION:
 Preparing the environment:
+
 	1) Model Execution - Download conda and open conda command prompt. Create new conda environment using the env.yml provided in the team109final.zip file using the below command. "env.txt" has all the modules and setup that need to be done for the environment setup.  - 
 		a) conda env create -f env.yml
 		
@@ -27,7 +29,7 @@ Preparing the environment:
 			- Visualization 2 using ANN Prediction Model output - https://public.tableau.com/app/profile/gopi.chava/viz/Project_TableauViz-2_Team109/ANNPredictionViz
 		Just opening the above links in a browser will show the visualizations which can be updated interactively as explained under execution section below for Tableau.
 
-EXECUTION:
+### EXECUTION:
 
 NOTE : The Notebook will take more than a day to train the models if executed for all countries. So, It is configured to run for US only currently. Please follow the steps mentioned below properly to run for all countries.
 
