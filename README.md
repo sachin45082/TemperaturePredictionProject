@@ -17,6 +17,8 @@ The project will utilize ARIMA/SARIMA model to predict temperature for the next 
 
 ### INSTALLATION:
 Preparing the environment:
+- Datasets - CO2 and Forest dataset is available in the Repo. Please download the Global Teperature by city dataset using below link and place it under "/CODE/ML Model/source".
+	https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data
 - Model Execution - Download conda and open conda command prompt. Create new conda environment using the env.yml provided in the team109final.zip file using the below command. "env.txt" has all the modules and setup that need to be done for the environment setup.  - 
 	+ conda env create -f env.yml
 - D3 Visualization : Copy the files produced by the Model Execution to folder (~relativePath/D3 Viz/data) if you would like to run the models for all countries(it might take a day). *** Final output from Model Execution for all the countries is already exported and copied into data folder to run vizulations
