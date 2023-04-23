@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <link rel="stylesheet" href="css/Map.css" type="text/css" />
+    <script type="text/javascript" src="lib/d3.v5.min.js"></script>
+    <script type="text/javascript" src="lib/d3-dsv.min.js"></script>
+    <script type="text/javascript" src="lib/topojson.v2.min.js"></script>
+    <script type="text/javascript" src="lib/d3-geo-projection.v2.min.js"></script>
+    <script type="text/javascript" src="lib/d3-tip.min.js"></script>
+</head>
+<body>
+    <div class="headerBar">
+        <!-- dropdown element for years-->
+        Select CO2 emission <select id="co2Dropdown" title="co2Dropdown"></select>
+        Select Forest area change <select id="forestAreaDropdown" title="forestAreaDropdown"></select>
+        <button id="playButton" title="playButton" style="display: none;">Auto Play</button>
+    </div>
+    <!-- append visualization svg to this div-->
+    <div id="choropleth_div">
+        <div class="mapTitle">Predicted temperature difference based on CO2 and Forest Area Change from base values of 0</div>
+        <svg id="choropleth"></svg>
+    </div>
+
+    <script type="text/javascript" src="js/MapCo2Def.js"></script>
+    <script>
+        
+        getData(0,0, d3.schemeOranges[9], "temp_diff");
+    </script>
+
+</body>

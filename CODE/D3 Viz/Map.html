@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <link rel="stylesheet" href="css/Map.css" type="text/css" />
+    <script type="text/javascript" src="lib/d3.v5.min.js"></script>
+    <script type="text/javascript" src="lib/d3-dsv.min.js"></script>
+    <script type="text/javascript" src="lib/topojson.v2.min.js"></script>
+    <script type="text/javascript" src="lib/d3-geo-projection.v2.min.js"></script>
+    <script type="text/javascript" src="lib/d3-tip.min.js"></script>
+</head>
+<body>
+    <div class="headerBar">
+        <!-- dropdown element for years-->
+        Select Year <select id="yearDropdown" title="yearDropdown"></select>
+        <button id="playButton" title="playButton">Auto Play</button>
+    </div>
+    <!-- append visualization svg to this div-->
+    <div id="choropleth_div">
+        <div class="mapTitle">Average Temperature of the World Year <span id="mapTitle2"></span></div>
+        <svg id="choropleth"></svg>
+    </div>
+
+    <script type="text/javascript" src="js/Map.js"></script>
+    <script>
+        //var colorScheme = ["#4197B0", "#41A9C1", "#41BAD1", "#55C7D2", "#88D8DA", "#BBEAE4", "#D9FFD9", "#FFFFAD", "#FFEA80", "#FFCB58", "#FFAA4D", "#F68F50", "#ED7453", "#E0603F"];
+        var colorScheme = [  "#55C7D2", "#88D8DA", "#BBEAE4", "#D9FFD9", "#ECFFDC",  "#FFFFAD", "#FFEA80", "#FFEA00", "#FFCB58", "#F4BB44", "#FFAA4D", "#F68F50", "#ED7453", "#E0603F"];
+        getData(1780, colorScheme, "temp_avg");
+    </script>
+
+</body>
